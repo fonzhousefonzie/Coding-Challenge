@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body, h1, h2, p, button{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Basic */
+
+h1{
+  color: #00dd00;
+  margin: 0;
+  text-align: center;
+  font-size: 28.5px;
+}
+
+h2{
+  color: #fff;
+  font-size: 21px;
+  letter-spacing: 0.5px;
+}
+
+p{
+  color: #fff;
+  font-size: 15px;
+}
+
+button{
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1px 5px;
+}
+
+/* Main */
+
+main{
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1140px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  padding: 96px 10px;
+  box-sizing: border-box;
+}
+
+/* Head */
+
+#logo{
+  max-height: 109px;
+  margin: 5px 0;
+}
+
+/* Section */
+
+section{
+  width: 100%;
+  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+nav{
+  background-color: #00dd00;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Article */
+
+article{
+  margin-top: 20px;
+}
+
+article > p, h2 {
+  margin: 0;
+}
+
+.carica{
+  height: 30px;
+  border-radius: 5px;
+}
+
+.uno{
+  width: 35%;
+  background: #f5b453;
+}
+
+.due{
+  width: 60%;
+  background-color: #1ec31e;
+}
+
+.tre{
+  width: 15%;
+  background-color: #be4141;
+}
